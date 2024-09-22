@@ -1,0 +1,131 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 3rem;
+}
+
+.track-crypto-heading,.real-time-heading{
+    font-size: 6.5rem;
+    margin: 0;
+}
+
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.track-crypto-heading:hover {
+    -webkit-text-stroke-color: var(--white);
+    color: var(--black);
+    transition: all 0.3s;
+  }
+  
+.real-time-heading{
+    color: var(--blue);
+}
+
+.info-text{
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+.btn-flex{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.img-container{
+    width: 50%;
+    position: relative;
+    padding: 1rem;
+}
+
+.iphone{
+    position: absolute;
+    z-index: 100;
+    min-width: 300px;
+    right: 0px;
+    width: 50%;
+}
+
+.gradient{
+    position: absolute;
+    right: 0px;
+     min-width: 250px; 
+    width: 40%; 
+    top: 8rem; 
+    /* width: 250px; */
+}
+
+@media only screen and (max-width: 1250px) {
+    
+    .track-crypto-heading,.real-time-heading {
+          font-size: 5rem;
+        }
+      }
+
+  
+@media only screen and (max-width: 1000px) {
+    
+    
+.iphone{
+    z-index: 100;
+    min-width: 250px;
+}
+
+.gradient{
+    min-width: 200px;
+    width: 40%;
+    top: 6rem;
+}
+      }
+
+
+ @media only screen and (max-width: 800px) {
+    .flex-info{
+        flex-direction: column;
+    }
+
+    .img-container{
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+     .iphone{
+        left: -2rem;
+    } 
+
+    
+    .gradient{
+        left: 20%;
+    }
+
+    .left-component{
+        width: 100%;
+    }
+    .track-crypto-heading,.real-time-heading{
+        font-size: 3rem;
+       text-align: center;
+    }
+
+    .info-text{
+        text-align: center;
+    }
+
+    .btn-flex{
+        justify-content: center;
+    }
+
+    .track-crypto-heading{
+        -webkit-text-stroke-width: 1px;
+    }
+
+          }
+
+

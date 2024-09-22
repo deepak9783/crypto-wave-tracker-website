@@ -1,0 +1,17 @@
+.info-component h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .coin-info-heading{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .info-p a {
+    text-decoration: underline;
+  }
+  
+  .info-p a:hover {
+    color: var(--blue) !important;
+    transition: all 0.3s;
+  }
